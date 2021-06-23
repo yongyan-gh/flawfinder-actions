@@ -13,4 +13,4 @@ jobs:
       - name: Flawfinder action step
         uses: ./ # Uses an action in the root directory
         with:
-          command: '--version'
+          command: '--help'
