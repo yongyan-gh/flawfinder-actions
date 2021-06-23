@@ -2,7 +2,7 @@ on: [push]
 
 jobs:
   sarif:
-    runs-on: ubuntu 20:04
+    runs-on: ubuntu:20.04
     name: Flawfinder
     steps:
       # To use this repository's private action,
